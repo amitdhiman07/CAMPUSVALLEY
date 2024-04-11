@@ -1,0 +1,63 @@
+# Titanic Survival Prediction
+
+This repository contains code for predicting the survival of passengers on the Titanic using machine learning models.
+
+## Overview
+
+The Titanic Survival Prediction project aims to analyze the Titanic dataset and build machine learning models to predict whether a passenger survived or not based on various features such as passenger class, sex, age, etc. The dataset contains information about passengers onboard the Titanic, including whether they survived or not.
+
+## Dataset
+
+The dataset used in this project is the famous Titanic dataset, which can be found [here](https://www.kaggle.com/c/titanic/data). It includes the following columns:
+
+- PassengerId
+- Survived
+- Pclass
+- Name
+- Sex
+- Age
+- SibSp
+- Parch
+- Ticket
+- Fare
+- Cabin
+- Embarked
+
+## Installation
+
+To run the code in this repository, you'll need Python and the following libraries:
+
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+
+You can install these libraries using pip:
+
+
+## Usage
+
+1. Clone the repository:
+
+
+
+2. Navigate to the project directory:
+
+
+3. Run the Jupyter notebook:
+
+
+4. Follow the instructions in the notebook to explore the dataset, train machine learning models, and make predictions.
+
+## Results
+
+The trained machine learning models achieved high accuracy in predicting passenger survival on the Titanic dataset. The README.md file provides an overview of the results and analysis conducted in the Jupyter notebook.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request with any improvements or suggestions.
+
+## References 
+
+Data from kaggle
+
