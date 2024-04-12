@@ -1,63 +1,25 @@
-# Titanic Survival Prediction
-
-This repository contains code for predicting the survival of passengers on the Titanic using machine learning models.
-
-## Overview
-
-The Titanic Survival Prediction project aims to analyze the Titanic dataset and build machine learning models to predict whether a passenger survived or not based on various features such as passenger class, sex, age, etc. The dataset contains information about passengers onboard the Titanic, including whether they survived or not.
-
-## Dataset
-
-The dataset used in this project is the famous Titanic dataset, which can be found [here](https://www.kaggle.com/c/titanic/data). It includes the following columns:
-
-- PassengerId
-- Survived
-- Pclass
-- Name
-- Sex
-- Age
-- SibSp
-- Parch
-- Ticket
-- Fare
-- Cabin
-- Embarked
-
-## Installation
-
-To run the code in this repository, you'll need Python and the following libraries:
-
-- pandas
-- scikit-learn
-- matplotlib
-- seaborn
-
-You can install these libraries using pip:
+TASK 1 - TITANIC SURVIVAL PREDICTION(Week-1)
 
 
-## Usage
+* Use the Titanic dataset to build a model that predicts whether a passenger on the Titanic survived or not. This is a classic beginner project with readily available data.
 
-1. Clone the repository:
-
-
-
-2. Navigate to the project directory:
+* The dataset typically used for this project contains information about individual passengers, such as their age, gender, ticket class, fare, cabin, and whether or not they survived.
 
 
-3. Run the Jupyter notebook:
+TASK 2 - IRIS FLOWER CLASSIFICATION(Week-2)
 
 
-4. Follow the instructions in the notebook to explore the dataset, train machine learning models, and make predictions.
+* The Iris flower dataset consists of three species: setosa, versicolor,and virginica. These species can be distinguished based on their measurements. Now, imagine that you have the measurements of Iris flowers categorized by their respective species. Your objective is to train a machine learning model that can learn from these measurements and accurately classify the Iris flowers into their respective species.
 
-## Results
+* Use the Iris dataset to develop a model that can classify iris flowers into different species based on their sepal and petal measurements. This dataset is widely used for introductory classification tasks.
 
-The trained machine learning models achieved high accuracy in predicting passenger survival on the Titanic dataset. The README.md file provides an overview of the results and analysis conducted in the Jupyter notebook.
+TASK 3 - CREDIT CARD FRAUD DETECTION(Week-3)
 
-## Contributing
 
-Contributions are welcome! Feel free to open an issue or submit a pull request with any improvements or suggestions.
+* Build a machine learning model to identify fraudulent credit card transactions.
 
-## References 
+* Preprocess and normalize the transaction data, handle class imbalance issues, and split the dataset into training and testing sets.
 
-Data from kaggle
+* Train a classification algorithm, such as logistic regression or random forests, to classify transactions as fraudulent or genuine.
+
 
