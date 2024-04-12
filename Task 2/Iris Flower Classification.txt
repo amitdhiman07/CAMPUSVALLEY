@@ -1,0 +1,29 @@
+Iris Flower Classification
+Overview
+This project aims to classify Iris flowers into their respective species based on their measurements. The Iris flower dataset contains measurements of sepal length, sepal width, petal length, and petal width for three species: setosa, versicolor, and virginica. Various machine learning classification algorithms are employed to build models that can accurately predict the species of Iris flowers based on these measurements.
+
+Dataset
+The Iris dataset used in this project consists of 150 samples, with 50 samples for each of the three species. Each sample has four features: sepal length, sepal width, petal length, and petal width. The dataset is commonly used in machine learning for classification tasks.
+
+Installation
+To run the code in this project, you need to have Python installed on your system. Additionally, you will need the following Python libraries:
+
+NumPy
+Pandas
+Scikit-learn
+You can install these libraries using pip:
+
+bash
+Copy code
+pip install numpy pandas scikit-learn
+Usage
+Clone this repository to your local machine.
+Navigate to the project directory.
+Run the Python script iris_classification.py to train the machine learning models and evaluate their performance.
+bash
+Copy code
+python iris_classification.py
+The script will display the accuracy, precision, recall, and F1-score metrics for each classification algorithm used in the project.
+You can modify the script or experiment with different classification algorithms to improve the performance of the models.
+Results
+The best-performing model for this dataset is Logistic Regression, with an accuracy of 100% and high precision, recall, and F1-score values for each class.
