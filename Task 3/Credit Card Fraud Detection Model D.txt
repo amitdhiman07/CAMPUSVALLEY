@@ -1,0 +1,45 @@
+Credit Card Fraud Detection Model Documentation
+Overview
+This document provides an overview and documentation of the credit card fraud detection model developed using various machine learning algorithms.
+
+Purpose
+The purpose of this model is to accurately detect fraudulent transactions in credit card data. It aims to provide financial institutions with a tool to minimize losses due to fraudulent activities and enhance security for cardholders.
+
+Data
+The dataset used for training and evaluation contains transactions made by credit cards in September 2013 by European cardholders. It consists of numerical input features derived from principal component analysis (PCA) transformation due to privacy concerns. The dataset is highly imbalanced, with a vast majority of non-fraudulent transactions and a small fraction of fraudulent transactions.
+
+Model Development
+The following machine learning algorithms were evaluated for their performance in detecting fraudulent transactions:
+
+Logistic Regression
+Decision Tree Classifier
+Random Forest Classifier
+Gradient Boosting Classifier
+Support Vector Classifier (SVC)
+K Neighbors Classifier
+Gaussian Naive Bayes
+Voting Classifier (Ensemble)
+Evaluation Metrics
+Each model was evaluated using the following metrics:
+
+Accuracy: The proportion of correctly classified transactions.
+Precision: The proportion of true positive predictions among all positive predictions.
+Recall: The proportion of true positive predictions among all actual positive instances.
+F1-Score: The harmonic mean of precision and recall, providing a balanced measure between them.
+Results
+The evaluation results for each model are summarized below:
+
+Model	Accuracy	Precision	Recall	F1-Score
+Logistic Regression	99.92%	89%	53%	67%
+Decision Tree Classifier	99.91%	69%	73%	71%
+Random Forest Classifier	99.95%	97%	72%	83%
+Gradient Boosting Classifier	99.93%	90%	63%	75%
+Support Vector Classifier	99.95%	98%	67%	80%
+K Neighbors Classifier	99.95%	97%	72%	83%
+Gaussian Naive Bayes	97.76%	5%	79%	10%
+Voting Classifier	99.96%	97%	74%	84%
+The Voting Classifier emerged as the best-performing model, achieving the highest accuracy and a balanced trade-off between precision and recall.
+
+Conclusion
+The developed credit card fraud detection model, particularly the Voting Classifier ensemble model, demonstrates strong performance in accurately identifying fraudulent transactions. It provides financial institutions with a reliable tool to enhance security and minimize losses due to fraudulent activities.
+
